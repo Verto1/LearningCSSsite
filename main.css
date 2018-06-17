@@ -1,0 +1,11 @@
+/* css syntax rules: selector {
+    property: value;
+} */
+
+h2 {
+    color: red;
+}
+
+p {
+    color: pink;
+}
