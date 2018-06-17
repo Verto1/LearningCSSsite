@@ -1,6 +1,38 @@
 /* css syntax rules: selector {
     property: value;
+    CSS Cheat Sheet
+
+    Reference:
+    *https://www.w3schools.com/cssref/css_selectors.asp
+    *https://css-tricks.com/almanac/
+
+    Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+    .class
+    #id
+    *
+    element
+    element, element
+    element element
+    element > element
+    element + element
+    :hover
+    :last-child
+    :first-child
+    !important (not recommended)
+
+
+    What seletors win out in the cascade depends on:
+    -Specificity
+    -Importance
+    -Source Order
 } */
+
+* {
+  font-family: 'Roboto', sans-serif; 
+}
+
 
 body {
     background-image: url(https://images.unsplash.com/photo-1503058695716-c5f66a905312?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=140cdf8284f113d27ac538f2072d8ae0&auto=format&fit=crop&w=2002&q=80);
@@ -22,4 +54,25 @@ li {
     list-style: none;
     display: inline-block;
     cursor: pointer;
+}
+
+.first {
+    color: black;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.loginstyle {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 2px 5px 20px;
+    margin: 20px;
+
 }
