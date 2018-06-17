@@ -2,10 +2,24 @@
     property: value;
 } */
 
+body {
+    background-image: url(https://images.unsplash.com/photo-1503058695716-c5f66a905312?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=140cdf8284f113d27ac538f2072d8ae0&auto=format&fit=crop&w=2002&q=80);
+    background-size: cover;
+}
+
 h2 {
-    color: red;
+    color: #2C7954;
+    text-align: center;
+    border: 5px solid rgba(21.2, 22.4, 47.1, 0.7);
 }
 
 p {
-    color: pink;
+    color: #2C7954;
+}
+
+li {
+    color: #2C7954;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
 }
