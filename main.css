@@ -30,9 +30,8 @@
 } */
 
 * {
-  font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
-
 
 body {
     background-image: url(https://images.unsplash.com/photo-1503058695716-c5f66a905312?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=140cdf8284f113d27ac538f2072d8ae0&auto=format&fit=crop&w=2002&q=80);
@@ -74,5 +73,4 @@ footer {
     display: inline-block;
     padding: 5px 2px 5px 20px;
     margin: 20px;
-
 }
